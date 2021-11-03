@@ -1,0 +1,130 @@
+---
+title: "Exercices pratiques sur le Module 2 du cours de SDDII : Anscombe et regression linéaire"
+author: "..."
+date: "..."
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+SciViews::R
+```
+
+# Visualisation
+
+> Importez le jeu de données `anscombe` depuis le package `datasets`. 
+
+```{r read}
+ans <- read("...", package = "...")
+```
+
+> Réalisez un graphique pour chacunes des combinaisons suivantes et assemblez les sur une seule figure :
+>
+> + y1 ~ x1
+> + y2 ~ x2
+> + y3 ~ x3
+> + y4 ~ x4
+   
+```{r nuage_points}
+
+```
+   
+> Calculez les coefficients de corrélation pour chaque combinaison
+
+```{r corr}
+
+```
+
+# Analyses 
+
+## y1 ~ x1
+
+> Réalisez une régression linéaire, analysez et commentez, en maximum 6 phrases, le tableau de résultats. 
+
+```{r reg1}
+
+```
+
+> Analysez les résidus en utilisant 3 des graphiques vus au cours. Commentez chacun de ceux-ci en maximum 3 phrases. 
+
+```{r reg1_graphe1}
+
+```
+
+```{r reg1_graphe2}
+
+```
+
+```{r reg1_graphe3}
+
+```
+
+## y2 ~ x2
+
+> Réalisez une régression linéaire, analysez et commentez, en maximum 6 phrases, le tableau de résultats. 
+
+```{r reg2}
+
+```
+
+> Analysez les résidus en utilisant 3 des graphiques vus au cours. Commentez chacun de ceux-ci en maximum 3 phrases. 
+
+```{r reg2_graphe1}
+
+```
+
+```{r reg2_graphe2}
+
+```
+
+```{r reg2_graphe3}
+
+```
+
+## y3 ~ x3
+
+> Réalisez une régression linéaire, analysez et commentez, en maximum 6 phrases, le tableau de résultats. 
+
+```{r reg3}
+
+```
+
+> Analysez les résidus en utilisant 3 des graphiques vus au cours. Commentez chacun de ceux-ci en maximum 3 phrases. 
+
+```{r reg3_graphe1}
+
+```
+
+```{r reg3_graphe2}
+
+```
+
+```{r reg3_graphe3}
+
+```
+
+## y4 ~ x4
+
+> Réalisez une régression linéaire, analysez et commentez, en maximum 6 phrases, le tableau de résultats. 
+
+```{r reg4}
+
+```
+
+> Analysez les résidus en utilisant 3 des graphiques vus au cours. Commentez chacun de ceux-ci en maximum 3 phrases. 
+
+```{r reg4_graphe1}
+
+```
+
+```{r reg4_graphe2}
+
+```
+
+```{r reg4_graphe3}
+
+```
+
+# Conclusion  
+
+> En 6 phrases maximum, faites une petite conclusion de vos analyses
